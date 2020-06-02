@@ -1,2 +1,2 @@
-./_clear.ps1
+./_clean.ps1
 python GA3C.py $args

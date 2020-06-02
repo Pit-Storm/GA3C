@@ -54,4 +54,5 @@ if Config.PLAY_MODE:
     Config.SAVE_MODELS = False
 
 # Start main program
-Server().main()
+if __name__ == '__main__':
+    Server().main()
